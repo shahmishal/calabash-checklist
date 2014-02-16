@@ -38,7 +38,7 @@ function testGemInstalled() {
 }
 
 function testIsPathSet() {
-  echo -n "Envirment variable \$$1 set .... "
+  echo -n "Environment variables \$$1 set .... "
   	if [ -z "$2" ]; then
 		echo -e "\033[31m no \033[0m";
 	else 
